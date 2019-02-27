@@ -1,0 +1,15 @@
+name: csapex
+
+base:
+  ubuntu: 16.04
+  ros: kinetic-desktop-full
+  opengl: runtime
+
+apt:
+  - qt5-default
+  - libqt5svg5-dev 
+  - git 
+  - subversion
+
+build: catkin_make
+
