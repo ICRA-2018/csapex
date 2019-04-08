@@ -18,4 +18,4 @@ docker run --rm \
     --env="XAUTHORITY=$XAUTH" \
     --volume="$XAUTH:$XAUTH" \
     --runtime=nvidia \
-     -p 8888:8888 csapex
+      -p 8888:8888 csapex

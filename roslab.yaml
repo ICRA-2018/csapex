@@ -2,7 +2,7 @@ name: csapex
 
 base:
   ubuntu: 16.04
-  ros: kinetic-desktop-full
+  ros: kinetic-ros-base
   opengl: runtime
 
 apt:
